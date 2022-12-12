@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>JMActions_20221118_184205</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0a4cc0b1-6eeb-4d5a-8d7c-0e41af4c4c01</testSuiteGuid>
+   
+<testCaseLink>
+      <guid>dfa17099-ee8a-472c-b93a-4583fd2f2081</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JobMonitoring/JobActions_ForJobStates</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>06eac974-b2c4-4e66-aeb0-8e868195eecc</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>11</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataForJobActions</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>06eac974-b2c4-4e66-aeb0-8e868195eecc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>JobState</value>
+         <variableId>fa14e12e-5a6a-419f-8a7f-e37415e0594a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>06eac974-b2c4-4e66-aeb0-8e868195eecc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>JobAction</value>
+         <variableId>733a2509-5f57-4bf7-83e2-b170d379821f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>06eac974-b2c4-4e66-aeb0-8e868195eecc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>deeba42e-d802-4544-b79c-5f155f26e90d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>06eac974-b2c4-4e66-aeb0-8e868195eecc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userChoice</value>
+         <variableId>b9a88c01-3e4a-42b5-8a6d-68ece165320d</variableId>
+      </variableLink>
+   </testCaseLink>
+<testCaseLink>
+      <guid>f68b96ad-72bb-4cae-bb82-4f981fa08f33</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JobMonitoring/FileViewerOpsJobs</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fc51b2bc-51f0-4dac-ab56-5dadffc504f0</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>8</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataFileViewerJobs</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fc51b2bc-51f0-4dac-ab56-5dadffc504f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobState</value>
+         <variableId>de80f296-8774-4025-ada0-c0a561551dfc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ef3044b-3e18-4358-b053-f5cc634b8c9c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc51b2bc-51f0-4dac-ab56-5dadffc504f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>b7255d04-d5ff-4509-879f-742686a1bd73</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc51b2bc-51f0-4dac-ab56-5dadffc504f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userChoice</value>
+         <variableId>caf2b1c8-58a9-4a4b-b40e-683a4064bb84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc51b2bc-51f0-4dac-ab56-5dadffc504f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FileName</value>
+         <variableId>f478ca9c-2981-4783-8198-7e3aca99cf14</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc51b2bc-51f0-4dac-ab56-5dadffc504f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Operation</value>
+         <variableId>61b6ede2-14cd-45af-bd30-74fa3058990f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

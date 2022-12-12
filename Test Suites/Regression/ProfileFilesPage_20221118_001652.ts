@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ProfileFilesPage_20221118_001652</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a2277086-f989-46a5-9a19-4d66d036effe</testSuiteGuid>
+   
+<testCaseLink>
+      <guid>2b1a4189-a818-47da-9742-56f962ca1783</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProfileModule/JobSubmissionThroughProfileContextMenuAllProfiles</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3aeb5b86-e6e0-4013-ae1f-b9c4fa9befa4</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataForProfileSubmissions</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3aeb5b86-e6e0-4013-ae1f-b9c4fa9befa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>afcc287f-4303-437c-84a7-54c5f609e3a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3aeb5b86-e6e0-4013-ae1f-b9c4fa9befa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>proName</value>
+         <variableId>a351aa0e-0046-484d-9538-a9879262f15f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3aeb5b86-e6e0-4013-ae1f-b9c4fa9befa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AppName</value>
+         <variableId>d233c01a-dff0-4e91-b5de-c116b3c8b088</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3aeb5b86-e6e0-4013-ae1f-b9c4fa9befa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fileName</value>
+         <variableId>b896bcd9-8f58-4e35-bd91-3ba246a3c920</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3aeb5b86-e6e0-4013-ae1f-b9c4fa9befa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userChoice</value>
+         <variableId>336e1ad1-9d38-4bf3-abb8-536d2b40cab2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3aeb5b86-e6e0-4013-ae1f-b9c4fa9befa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SubmissionType</value>
+         <variableId>9c97d509-5dcb-4ac6-86a9-60bbc4cf8b75</variableId>
+      </variableLink>
+   </testCaseLink>
+<testCaseLink>
+      <guid>9d87a530-94fa-4a77-bca0-9470f4c22b63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProfileModule/DeleteProfile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c72608c6-12cd-4667-91cf-9b6146e0a52b</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataForProfiles</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c72608c6-12cd-4667-91cf-9b6146e0a52b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>4343b31b-60fa-4ed8-9029-52a057e6f17f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c72608c6-12cd-4667-91cf-9b6146e0a52b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>proName</value>
+         <variableId>0300cf62-3068-4779-b99e-ee7267d531f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c72608c6-12cd-4667-91cf-9b6146e0a52b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AppName</value>
+         <variableId>d45d70d8-f2f8-48b4-94fb-152c1a5ecfc0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

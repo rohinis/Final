@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\KSProjects\AccessReg\Acc-master\Acc-master\AccessWeb.prj" -retry=0 -testSuitePath="Test Suites/JobsRFB-FileOperations-DryRunsExtent_20221209_143211" -executionProfile="FireFox_JMActions" -browserType="Chrome"
