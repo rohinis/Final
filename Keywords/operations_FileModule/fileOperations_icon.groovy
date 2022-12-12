@@ -169,7 +169,7 @@ public class fileOperations_Icon {
 					result=true
 					extentTest.log(LogStatus.PASS, 'Verified Pasted File - '+ fileToCheck)
 				}
-			//	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			//	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			//	extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 
 				if(TestCaseName.contains('Job Submission')) {

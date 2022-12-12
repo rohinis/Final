@@ -79,7 +79,7 @@
          <id>72a11dba-cfe2-4d9f-bca0-04fb7ed76a2a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>26</value>
+            <value>1-5</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForProfileSubmissions</testDataId>
       </testDataLink>

@@ -309,7 +309,7 @@ try
 			WebUI.click(findTestObject('AppComposer/JobsTab'))
 			extentTest.log(LogStatus.PASS, 'Navigated to Jobs Tab')
 
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')*/
 
 

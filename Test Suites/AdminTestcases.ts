@@ -177,7 +177,7 @@
    <testCaseLink>
       <guid>6d455d90-6c5f-4cf3-9008-2bdba3aa7c88</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Access_Management/Access_management</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -235,7 +235,7 @@
          <combinationType>ONE</combinationType>
          <id>f0a472e2-6cc0-49c9-ac61-ce6641f2c997</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
+            <iterationType>SPECIFIC</iterationType>
             <value>15</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForAuditLogs</testDataId>
@@ -509,14 +509,14 @@
    <testCaseLink>
       <guid>fb59adab-5db9-48f9-99f6-f6f05abf4eb9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Access_Management/Access_managementNewtest cases</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>56700316-c5d8-48b6-adf3-143c8642f15a</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-4</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataAccessMangNew</testDataId>
       </testDataLink>

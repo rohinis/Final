@@ -25,7 +25,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForCreateFile</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>4fac7f21-2b2b-4e46-b042-1d46e2852d6e</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -59,7 +58,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForCreateFolder</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>1ac0fae5-4a8a-4cc1-a41f-49d1b2cd0061</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -93,7 +91,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>3ec2548f-65a7-4f36-8b3a-182438c4c763</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -127,7 +124,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>1e0ee1e1-f5ef-44dd-8319-eb6dfbe2add9</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -161,7 +157,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>af440c48-fc5b-4fd6-9060-ef303b7f8247</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -201,7 +196,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>348f096b-6a2d-4fec-94d0-2a050a5e691c</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -241,7 +235,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForBookMarks</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>821e0475-7205-4a2f-a497-b01e0b6b81f8</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -278,7 +271,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/Pagination-FilesTab</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -297,7 +289,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/UnzipOnUpload</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -322,7 +313,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/FileSearch</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -356,7 +346,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataFilesCols</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>dbfabf29-1847-4855-8c72-b37d5491c418</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -408,7 +397,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileViewer</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>8c1e91b0-2ac7-428a-85d5-125c28436a5a</testDataLinkId>
          <type>DATA_COLUMN</type>

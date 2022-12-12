@@ -21,10 +21,11 @@
          <id>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>10</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForAuditLogs</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
          <type>DATA_COLUMN</type>

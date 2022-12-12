@@ -224,7 +224,7 @@ try {
 
             WebUI.click(findTestObject('Access_Management/Confirm_button'))
 
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Opened Notification Panel')
 
@@ -526,7 +526,7 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Click on confirm button')
 
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Opened Notification Panel')
 

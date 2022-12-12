@@ -25,7 +25,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>41e4f676-9528-4518-900a-9ad376c718e4</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -65,7 +64,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>2f3e7c47-fdc6-4aca-b414-531bc56b5c02</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -105,7 +103,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileViewer</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>f148e622-3d6f-44be-8355-a67aa489a91a</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -140,12 +137,11 @@
          <combinationType>ONE</combinationType>
          <id>6de06c28-6991-4210-952b-47a77fa554d7</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
+            <iterationType>RANGE</iterationType>
             <value>13-16</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForCreateFolder</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>6de06c28-6991-4210-952b-47a77fa554d7</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -179,7 +175,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForCreateFolder</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>26fd5b7f-2434-4fb7-b48d-9f8b723302af</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -208,12 +203,11 @@
          <combinationType>ONE</combinationType>
          <id>2ee02e77-27ba-4870-9fa4-89ee5ffb7974</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-7</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/TestDataForGenericFilesOps</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>2ee02e77-27ba-4870-9fa4-89ee5ffb7974</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -247,7 +241,6 @@
          </iterationEntity>
          <testDataId>Data Files/TestDataForGenericFilesOps</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>756088bf-1478-4be7-83be-1cf00846a577</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -275,7 +268,6 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataFilesCols</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>229fae69-5199-4877-a1cd-1e1b1dfafb2e</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -318,7 +310,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/FileSearch</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

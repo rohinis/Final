@@ -4,35 +4,28 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.exception.StepErrorException as StepErrorException
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.remote.RemoteWebDriver
-import org.openqa.selenium.support.events.EventFiringWebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.Keys as Keys
 
 import internal.GlobalVariable as GlobalVariable
 
-WebDriver driver = DriverFactory.getWebDriver()
-EventFiringWebDriver eventFiring = ((DriverFactory.getWebDriver()) as EventFiringWebDriver)
-WebDriver wrappedWebDriver = eventFiring.getWrappedDriver()
-RemoteWebDriver katalonWebDriver = ((wrappedWebDriver) as RemoteWebDriver)
-//====================================================================================
-ReportFile = (GlobalVariable.G_ReportName + '.html')
-def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
-def LogStatus = com.relevantcodes.extentreports.LogStatus
+'Login into PAW '
+WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_userName, ('password') : GlobalVariable.G_Password],
+FailureHandling.STOP_ON_FAILURE)
+
+String ReportFile=GlobalVariable.G_ReportName+".html"
+
+def extent=CustomKeywords.'generateReports.GenerateReport.create'(ReportFile,GlobalVariable.G_Browser,GlobalVariable.G_BrowserVersion)
+def LogStatus = com.relevantcodes.extentreports.LogStatus;
+
 def extentTest = extent.startTest(TestCaseName)
-CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
-//=====================================================================================
 
-println "*****************************************************"
-println GlobalVariable.G_Platform
-println "*****************************************************"
-
+WebUI.delay(2)
 try
 {
 	'Navigate to Files Tab\r\n'

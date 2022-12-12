@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>bb74da93-4c6e-4eb0-8cac-de53d70ee2ba</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>51-90</value>
+            <iterationType>ALL</iterationType>
+            <value>90</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForJS-Latest</testDataId>
       </testDataLink>

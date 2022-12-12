@@ -46,7 +46,7 @@ try {
 
 	extentTest.log(LogStatus.PASS, 'Click on files tab')
 	WebUI.delay(3)
-	WebUI.click(findTestObject('FilesPage/Bookmark'))
+	WebUI.doubleClick(findTestObject('FilesPage/Bookmark'))
 	extentTest.log(LogStatus.PASS, 'Click on bookmark')
 
 
@@ -57,7 +57,7 @@ try {
 			extentTest.log(LogStatus.PASS, 'Click on create new bookmark')
 			WebUI.delay(2)
 
-			WebUI.setText(findTestObject('Filespage/Enter_name'),bookMarkName)
+			WebUI.setText(findTestObject('Filespage/Enter Name'),bookMarkName)
 			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' + bookMarkName)
 
 
@@ -68,26 +68,18 @@ try {
 			WebUI.click(findTestObject('FilesPage/Confirm_button'))
 			extentTest.log(LogStatus.PASS, 'Click on ok button')
 
-			WebUI.delay(2)
+			WebUI.delay(1)
 
 			WebUI.click(findTestObject('FilesPage/Bookmark'))
 			extentTest.log(LogStatus.PASS, 'Click on bookmark')
 
-			WebUI.delay(2)
+			WebUI.delay(1)
 
 			WebUI.click(findTestObject('FilesPage/Managebookmark'))
 			extentTest.log(LogStatus.PASS, 'Click on manage bookmark')
-			
-			
-			WebUI.delay(2)
 
 			TestObject bookmark = WebUI.modifyObjectProperty(findTestObject('FilesPage/Check_Bookmark'), 'text','equals',bookMarkName , true)
-			WebUI.delay(2)
 			WebUI.click(bookmark)
-			
-			
-			WebUI.delay(2)
-			
 			extentTest.log(LogStatus.PASS, 'Checked the created bookmark ')
 			break;
 
@@ -97,7 +89,7 @@ try {
 			extentTest.log(LogStatus.PASS, 'Click on create new bookmark')
 			WebUI.delay(2)
 
-			WebUI.setText(findTestObject('Filespage/Enter_name'),bookMarkName)
+			WebUI.setText(findTestObject('Filespage/Enter Name'),bookMarkName)
 			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' + bookMarkName)
 
 

@@ -58,6 +58,10 @@ try
 
 	def GP = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/NewJobPage/GenericProfile'),2,extentTest,'JSPage')
 
+	
+
+	
+
 	if (GP) {
 		extentTest.log(LogStatus.PASS, 'Navigated to Job Submission For for - '+AppName)		}
 
@@ -229,10 +233,10 @@ try
 		{
 			WebUI.delay(2)
 			WebUI.waitForElementClickable(findTestObject('Object Repository/NewJobPage/GenericProfile'), 10)
-			//	WebUI.click(findTestObject('Object Repository/NewJobPage/GenericProfile'))
-				WebElement ele = driver.findElement(By.xpath("//span[@title='Generic Profile']"));
+				WebUI.click(findTestObject('Object Repository/NewJobPage/GenericProfile'))
+			/*	WebElement ele = driver.findElement(By.xpath("//span[@title='Generic Profile']"));
 				JavascriptExecutor jse = (JavascriptExecutor)driver;
-				jse.executeScript("arguments[0].click()", ele);
+				jse.executeScript("arguments[0].click()", ele);*/
 			isProfilePersent = WebUI.verifyElementPresent(LeftNavAppIdentifier, 5)
 
 			if (isProfilePersent) {

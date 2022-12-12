@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(text(),'127.0.0.1')]</value>
+         <value>//div[contains(text(),'10.75.22.91')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

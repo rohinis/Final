@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7a068f96-264e-4936-8024-5ce15650b06b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/Jobdetailspage_context menu</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -54,7 +54,7 @@
    <testCaseLink>
       <guid>421dce72-0760-449e-b200-d4d706434f39</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/Jobdetailspage_topmenu_icons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>dfa17099-ee8a-472c-b93a-4583fd2f2081</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobActions_ForJobStates</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>130367d8-1902-44eb-962a-bd44dc2a32ee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobActions_ForJobStates -Topmenu_Icon</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -168,7 +168,7 @@
    <testCaseLink>
       <guid>f68b96ad-72bb-4cae-bb82-4f981fa08f33</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/FileViewerOpsJobs</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -220,7 +220,7 @@
    <testCaseLink>
       <guid>21917e61-3655-436f-95f5-0fec759d4214</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/EditRunningFile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -267,94 +267,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>70e8fc63-2e1e-4f32-9412-79787c6321f0</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>60240016-d405-4e6f-9adf-ca3c557c4b6b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Upload/RunningFolder_jobspage</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1e5912aa-44cb-4a2a-8cbd-d878986a8cb8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e3dfb89e-d66e-42d0-bfd7-4bbd555d0c58</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2b559ba8-93b4-4f35-8694-c51dea26e300</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>098e6013-1c93-4f47-8b26-69214f7e665a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7843bf5b-9c2e-45c2-8b0b-571c592f8f6a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Upload/Uploadfile_replace_existingfile</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c2d942e0-ef05-422f-8197-c27d84a551af</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2402d5c3-9454-46b4-91d5-4ee0725f4733</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0087fd54-470f-4aa5-877a-1760da2733f5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Upload/Uploadfile_uncompress</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>23c75d3e-c92d-4605-aea2-cab55897792c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cbf9d73d-969b-4d15-90d6-26b5b76612ad</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>47c14a21-f4d1-473e-b848-7f7938327725</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Upload/Uploadfile_verify_unzipmessage</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4ea9fce1-f358-4cdd-8ebc-db0f6441f4ca</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fb4e129b-d74a-4fc3-805c-55abeb31584a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

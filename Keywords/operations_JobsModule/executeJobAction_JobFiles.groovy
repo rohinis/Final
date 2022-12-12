@@ -75,7 +75,7 @@ public class executeJobAction_JobFiles {
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 					WebUI.delay(2)
 					extentTest.log(LogStatus.PASS, 'Deleting file   ')
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					WebUI.delay(3)
 					isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Object Repository/Notificactions/Notification_DeleteFile'), 5)
 					println("notification status - "+isNotoficationPresent)
@@ -119,7 +119,7 @@ public class executeJobAction_JobFiles {
 					println ("Filed not renamed to "+Renameto + " isElemenetPresent " + isElemenetPresent)
 					result=false
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				return result
 				break
@@ -165,7 +165,7 @@ public class executeJobAction_JobFiles {
 				WebUI.click(findTestObject('FilesPage/btn_Save'))
 				WebUI.delay(3)
 				extentTest.log(LogStatus.PASS, 'Clicked on Save Button')
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				result=WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_FileCreation'), 5)
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				return result
@@ -189,7 +189,7 @@ public class executeJobAction_JobFiles {
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 					WebUI.delay(2)
 					extentTest.log(LogStatus.PASS, 'terminating job  ')
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					WebUI.delay(2)
 					isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobTerminate'), 5)
 					println("notification status - "+isNotoficationPresent)

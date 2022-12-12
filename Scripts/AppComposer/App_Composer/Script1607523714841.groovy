@@ -288,7 +288,7 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Verify delete app notification')
 
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 
@@ -308,7 +308,7 @@ try {
                 extentTest.log(LogStatus.FAIL)
             }
             
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 
@@ -506,7 +506,7 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Navigated to Jobs Tab')
 
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 

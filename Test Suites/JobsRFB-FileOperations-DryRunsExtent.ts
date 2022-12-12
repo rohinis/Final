@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>3eb5a10a-9972-4dc8-bdb8-cc05a8b66d21</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/MultipleJobSubmissions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -363,7 +363,7 @@
          <id>79d710a3-ebd9-4679-9fdf-473c2af2c8f0</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>11-17</value>
+            <value>5</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
@@ -402,7 +402,7 @@
          <testDataLinkId>79d710a3-ebd9-4679-9fdf-473c2af2c8f0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Operation</value>
-         <variableId>f55bcc53-f6f3-41b5-9e38-efbbc251b57d</variableId>
+         <variableId>06088c48-c331-4396-97c3-01d04194b342</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
